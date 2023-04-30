@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+/*start divs*/
+
+/*start nav1*/
+.nav1{
+    background-color: rgba(42, 193, 118, 0.824);
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 70%;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    padding-left: 50px;
+}
+.help{
+    color: aliceblue;
+}
+.FAQS::after{
+    content: "";
+    border: 1PX solid rgb(254, 253, 253);
+    position: absolute;
+    height: 10px;
+    margin-top: 3px;
+}
+.iconsmedia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.face:hover{
+    border: 2px solid rgb(11, 100, 183);
+    background-color:rgb(11, 100, 183);
+    border-radius: 30%;
+}
+.twit:hover{
+    border: 2px solid rgb(77, 167, 235);
+    background-color:rgb(77,167, 235);
+    border-radius: 50%;
+}
+.link:hover{
+    border: 2px solid rgb(13, 118, 205);
+    background-color:rgb(13,118, 205);
+    border-radius: 10%;
+}
+.insta:hover{
+    border: 2px solid rgb(229, 124, 159);
+    background-color:rgb(229, 124, 159);
+    border-radius: 30%;
+}
+.you:hover{
+    border: 2px solid red;
+    background-color:red;
+    border-radius: 20%;
+}
+/*end nav1*/
+/*start responsive nav1*/
+@media (max-width:1120px) {
+    .nav1{
+        gap: 60%;
+    }
+}
+@media (max-width:800px) {
+    .nav1{
+        gap:50%;
+    }
+}
+@media (max-width:680px) {
+    .nav1{
+        gap:40%;
+    }
+}
+@media (max-width:580px) {
+    .nav1{
+        gap:30%;
+        padding-left: 20px;
+    }
+}
+
+/*end responcive nav1*/
+
+/*start petlover*/
+.petlover{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 55%;
+    margin: 10px;
+    margin-left: 50px;
+    font-size: 12px;
+}
+.petlover h1{
+    font-size: 25px;
+}
+.pet{
+    color:rgb(242, 95, 58);
+}
+.opening{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+    color: #0b0a0aa7;
+}
+.hours,
+.call,
+ h4{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.hours::after{
+    content: "";
+    border: 1px solid rgba(86, 82, 82, 0.221);
+    width: 0px;
+    height: 35px;
+    margin-left: 65px;
+    margin-top: -35px;
+    position: absolute;
+}
+.hours:hover{
+    background-color:rgb(239, 110, 62);
+    color: white;
+    border-radius: 2%;
+}
+.Call:hover{
+    background-color:rgb(239, 110, 62);
+    color: white;
+    border-radius: 2%;
+}
+/*end petlover*/
+
+/*start responsive petloner*/
+@media (max-width:1120px) {
+    .petlover{
+        gap: 50%;
+    }
+}
+@media (max-width:1000px) {
+    .petlover{
+        font-size: 8px;
+    }
+}
+@media (max-width:885px) {
+    .petlover{
+        gap: 40%;
+        margin: 5px;
+        margin-left: 40px;
+        font-size: 5px;   
+    }
+    .opening{
+        gap: 30px;
+    }   
+}
+@media (max-width:750px) {
+    .petlover{
+        font-size: 3px;
+        gap: 30%;
+        margin-left: 20px;
+    }
+}
+@media (max-width:610px) {
+    .petlover{
+        font-size:2px;
+        gap: 20%;
+        margin-left: 10px;
+    }
+}
+@media (max-width:550px) {
+    .petlover{
+        gap: 15%;
+        margin-left: 10px;
+    }
+    .petlover h1{
+        font-size: 15px;
+    }
+}
+/*end responcive petlover*/
+
+/*start nav2*/
+
+.grip-lines{
+    border: 1px solid rgb(233, 108, 77);
+    border-radius: 5%;
+    width: 40px;
+    height: 30px;
+    margin: 10px 0px 0px 30px;
+    background-color:rgb(12, 12, 12);
+}
+.grip-lines:hover{
+    background-color: rgb(244, 240, 239);
+}
+.grip-lines i{
+    color: rgb(233, 108, 77); 
+    font-size: 30px;
+    padding-left: 5px;
+}
+.grip-lines i:hover{
+    color: #e85d07;
+}
+.nav2 label{
+    display: none;
+}
+.nav2 input{
+    display: none;
+}
+
+.nav2{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    margin-top: -10px;
+    display: flex;
+    color: rgb(213, 217, 221);
+}
+li{
+    list-style: none;
+    padding-top: 25px;
+    height: 70px;
+}
+.About{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin-left: 70px;
+}
+.p{
+    padding:25px 15px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.home{
+    background-color:rgb(242, 95, 58);
+}
+.home a{
+    color: #000;
+}
+.home:hover{
+    background-color:rgb(242, 95, 58);
+    color: #000;
+}
+.Service:hover{
+    background-color:rgb(242, 95, 58);
+    color: #000;
+}
+.Pages:hover{
+    background-color:rgb(242, 95, 58);
+    color: #000;
+}
+a:hover{
+      color: #000;
+}
+.drowpdone{
+    background-color: rgb(221, 224, 226);
+    color: #0e0d0dc4;
+    padding: 15px 25px;
+    font-size: 10px;
+    margin-top: 30px;
+    display: none;
+}
+.best .nav2 .About .Pages:hover .drowpdone{
+    display: block;
+}
+.drowpdone p:hover{
+    background-color: #a2a0a024;
+    padding: 10px 10px;
+    width: 70px;
+    height: 20px;
+}
+#arrow{
+font-size: 1px;
+}
+#arrow:hover{
+     color: #000;
+}
+.get{
+    background-color:rgb(242, 95, 58);
+    color: aliceblue;
+    margin-left: 35%;
+    border: none;
+    border-radius: 5%;
+    margin-top: 20px;
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+} 
+.get:hover{
+    background-color:rgba(237, 75, 34, 0.929);
+    color: #000;
+}
+
+/*end nav2*/
+
+/*start responsive nav2*/
+
+@media (max-width:1080px) {
+    .About{
+        margin-left: 50px;
+    }
+    .get{
+        margin-left:25%;
+    }
+}
+@media (max-width:900px) {
+    .About{
+        margin-left: 30px;
+    }
+    .get{
+        margin-left: 15%;
+    }
+}
+@media (max-width:770px) {
+    .nav2 input:checked ~ .About{
+        display: block;
+    }
+    .nav2 ul{
+        display: none;
+        background-color: #000000;
+    }
+    .nav2 label{
+        display:block;
+    }
+    .About{
+        z-index: 100;
+        width: 50%;
+    }
+    .About li{
+        background-color: #000;
+    }
+    .home a{
+        color: white;
+    }   
+}
+
+/*end responcive nav2*/
+
+/*start contact-us*/
+.contact-us{
+   text-align: center;
+   margin-top: 50px;
+}
+.contact-us h1{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.contact-us h4{
+    color: rgba(42, 193, 118, 0.824);
+}
+.contact-us h1 span{
+    color:rgb(242, 95, 58);
+}
+form{
+    display: grid;
+    gap: 5px; 
+}
+input{
+    width: 600px;
+    height: 35px;
+    margin-left:25%;
+    padding-left: 20px;
+}
+.message{
+    height: 150px;
+    padding-bottom: 80px;
+}
+input[type=button]{
+    width: 130px;
+    font-size: 10px;
+    color: white;
+    background-color:rgba(237, 75, 34, 0.929);
+    border: none;
+    border-radius: 5px;
+    padding-right: 20px;
+}
+input[type=button]:hover{
+    background-color: #000;
+    color:orange;
+}
+iframe{
+    width: 100%;
+    margin: 50px 0px -50px 0px;
+}
+/*end contact-us*/
+
+/*start responcive contact-us*/
+@media (max-width:900px) {
+    input{
+        width: 400px;
+    }
+    .message{
+        height: 100px;
+        padding-bottom: 50px;
+    }
+    .contact-us h1{
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width:650px) {
+    input{
+        width: 250px;
+        height: 25px;
+        margin-left: 30%;
+    }
+    .message{
+        height: 70px;
+        padding-bottom: 50px;
+    }
+    .contact-us h1{
+        font-size: 20px;
+        padding-bottom: 30px;
+        
+    }
+    input[type=button]{
+        width: 80px;
+        font-size: 5px;
+    }
+    
+}
+
+/*end responcive contact-us*/
+
+/*start final*/
+
+.final{
+    background-color: #0b0a0aed;
+    width:100%;
+    color: #dddbdb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin: 50px 0px 0px 0px;
+    padding: 50px;
+    font-size: 10px;
+}
+.p-lover{
+    text-align: justify;
+}
+.p-lover pre{
+    color: #ffff;
+}
+.p-lover h1 .span1{
+    color: rgb(242, 95, 58);
+}
+.final{
+    text-align: justify;
+}
+.final h2{
+    color: rgb(242, 95, 58);
+}
+.final ul li{
+    display: flex;
+    gap: 5px;  
+}
+.get-in-touch .media{
+    display: flex;
+    gap: 10px;
+}
+.get-in-touch .media i{
+    font-size: 10px;
+    border: 1px solid white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 7px;
+}
+.final i:hover{
+    color: rgb(242, 95, 58);
+    font-weight: bolder;
+}
+.get-in-touch .media i:hover{
+    background-color: rgb(242, 95, 58);
+    color: #000;
+    font-weight: bolder;
+}
+.popular-links a{
+    text-decoration: none;
+    color: #ffff;
+}
+.newsletter h2{
+    margin-left: 35px;
+}
+.newsletter form input{
+    width: 150px;
+    height: 20px;
+}
+.newsletter form input[type=button]{
+    background-color: rgb(242, 95, 58); 
+}
+.newsletter form input[type=button]:hover{
+    background-color: #ffff;
+    color: rgb(242, 95, 58); 
+}
+/*end final*/
+
+/*start header*/
+.header{
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    color: #ffffff;
+}
+.header h5{
+    padding: 15px 0px 0px 10px;
+}
+.header h5 span:hover{
+    color: rgb(233, 108, 77); 
+    font-weight:bolder;
+}
+.header .nav li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.header .nav ul{
+    display: flex;
+    gap: 10px;
+    margin: -10px 0px 0px 400px;
+}
+.header .nav li:hover{
+    color: rgb(233, 108, 77); 
+    font-weight: bolder;
+}
+/*end header*/
+
+/*stat responcive header*/
+
+@media (max-width:1020px) {
+    .header .nav ul{
+        margin-left: 200px;
+    }
+}
+@media (max-width:750px) {
+    .header{
+        display: block;
+    }
+    .header .nav ul{
+        margin-left: 0px;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+/*end responcive header*/
+
+
+

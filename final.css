@@ -1,0 +1,1202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+/*start divs*/
+
+/*start nav1*/
+.nav1{
+    background-color: rgba(42, 193, 118, 0.824);
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 70%;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    padding-left: 50px;
+}
+.help{
+    color: aliceblue;
+}
+.FAQS::after{
+    content: "";
+    border: 1PX solid rgb(254, 253, 253);
+    position: absolute;
+    height: 10px;
+    margin-top: 3px;
+}
+.iconsmedia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.face:hover{
+    border: 2px solid rgb(11, 100, 183);
+    background-color:rgb(11, 100, 183);
+    border-radius: 30%;
+}
+.twit:hover{
+    border: 2px solid rgb(77, 167, 235);
+    background-color:rgb(77,167, 235);
+    border-radius: 50%;
+}
+.link:hover{
+    border: 2px solid rgb(13, 118, 205);
+    background-color:rgb(13,118, 205);
+    border-radius: 10%;
+}
+.insta:hover{
+    border: 2px solid rgb(229, 124, 159);
+    background-color:rgb(229, 124, 159);
+    border-radius: 30%;
+}
+.you:hover{
+    border: 2px solid red;
+    background-color:red;
+    border-radius: 20%;
+}
+/*end nav1*/
+/*start responsive nav1*/
+@media (max-width:1120px) {
+    .nav1{
+        gap: 60%;
+    }
+}
+@media (max-width:800px) {
+    .nav1{
+        gap:50%;
+    }
+}
+@media (max-width:680px) {
+    .nav1{
+        gap:40%;
+    }
+}
+@media (max-width:580px) {
+    .nav1{
+        gap:30%;
+        padding-left: 20px;
+    }
+}
+
+/*end responcive nav1*/
+
+/*start petlover*/
+.petlover{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 55%;
+    margin: 10px;
+    margin-left: 50px;
+    font-size: 12px;
+}
+.petlover h1{
+    font-size: 25px;
+}
+.pet{
+    color:rgb(242, 95, 58);
+}
+.opening{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+    color: #0b0a0aa7;
+}
+.hours,
+.call,
+ h4{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.hours::after{
+    content: "";
+    border: 1px solid rgba(86, 82, 82, 0.221);
+    width: 0px;
+    height: 35px;
+    margin-left: 65px;
+    margin-top: -35px;
+    position: absolute;
+}
+.hours:hover{
+    background-color:rgb(239, 110, 62);
+    color: white;
+    border-radius: 2%;
+}
+.Call:hover{
+    background-color:rgb(239, 110, 62);
+    color: white;
+    border-radius: 2%;
+}
+/*end petlover*/
+
+/*start responsive petloner*/
+@media (max-width:1120px) {
+    .petlover{
+        gap: 50%;
+    }
+}
+@media (max-width:1000px) {
+    .petlover{
+        font-size: 8px;
+    }
+}
+@media (max-width:885px) {
+    .petlover{
+        gap: 40%;
+        margin: 5px;
+        margin-left: 40px;
+        font-size: 5px;   
+    }
+    .opening{
+        gap: 30px;
+    }   
+}
+@media (max-width:750px) {
+    .petlover{
+        font-size: 3px;
+        gap: 30%;
+        margin-left: 20px;
+    }
+}
+@media (max-width:610px) {
+    .petlover{
+        font-size:2px;
+        gap: 20%;
+        margin-left: 10px;
+    }
+}
+@media (max-width:550px) {
+    .petlover{
+        gap: 15%;
+        margin-left: 10px;
+    }
+    .petlover h1{
+        font-size: 15px;
+    }
+}
+/*end responcive petlover*/
+
+/*start nav2*/
+.grip-lines{
+    border: 1px solid rgb(233, 108, 77);
+    border-radius: 5%;
+    width: 40px;
+    height: 30px;
+    margin: 10px 0px 0px 30px;
+    background-color:rgb(12, 12, 12);
+}
+.grip-lines:hover{
+    background-color: rgb(244, 240, 239);
+}
+.grip-lines i{
+    color: rgb(233, 108, 77); 
+    font-size: 30px;
+    padding-left: 5px;
+}
+.grip-lines i:hover{
+    color: #e85d07;
+}
+.nav2 label{
+    display: none;
+}
+.nav2 input{
+    display: none;
+}
+
+.nav2{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    margin-top: -10px;
+    display: flex;
+    color: rgb(213, 217, 221);
+}
+li{
+    list-style: none;
+    padding-top: 25px;
+    height: 70px;
+}
+.About{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin-left: 70px;
+}
+.p{
+    padding:25px 15px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.home{
+    background-color:rgb(242, 95, 58);
+}
+.home a{
+    color: #000;
+}
+.home:hover{
+    background-color:rgb(242, 95, 58);
+    color: #000;
+}
+.Service:hover{
+    background-color:rgb(242, 95, 58);
+    color: #000;
+}
+.Pages:hover{
+    background-color:rgb(242, 95, 58);
+    color: #000;
+}
+a:hover{
+      color: #000;
+}
+.drowpdone{
+    background-color: rgb(221, 224, 226);
+    color: #0e0d0dc4;
+    padding: 15px 25px;
+    font-size: 10px;
+    margin-top: 30px;
+    display: none;
+}
+.best .nav2 .About .Pages:hover .drowpdone{
+    display: block;
+}
+.drowpdone p:hover{
+    background-color: #a2a0a024;
+    padding: 10px 10px;
+    width: 70px;
+    height: 20px;
+}
+#arrow{
+font-size: 1px;
+}
+#arrow:hover{
+     color: #000;
+}
+.get{
+    background-color:rgb(242, 95, 58);
+    color: aliceblue;
+    margin-left: 35%;
+    border: none;
+    border-radius: 5%;
+    margin-top: 20px;
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+} 
+.get:hover{
+    background-color:rgba(237, 75, 34, 0.929);
+    color: #000;
+}
+/*end nav2*/
+
+/*start responsive nav2*/
+
+@media (max-width:1080px) {
+    .About{
+        margin-left: 50px;
+    }
+    .get{
+        margin-left:25%;
+    }
+}
+@media (max-width:900px) {
+    .About{
+        margin-left: 30px;
+    }
+    .get{
+        margin-left: 15%;
+    }
+}
+@media (max-width:770px) {
+    .nav2 input:checked ~ .About{
+        display: block;
+    }
+    .nav2 ul{
+        display: none;
+        background-color: #000000;
+    }
+    .nav2 label{
+        display:block;
+    }
+    .About{
+        z-index: 100;
+        width: 50%;
+    }
+    .About li{
+        background-color: #000;
+    }
+    .home a{
+        color: white;
+    }   
+}
+
+/*end responcive nav2*/
+
+/*start keep*/
+.keep{
+    background-image: url("./img/carousel-1.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+    background-size: 100% 100%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 450px;
+    color: aliceblue;
+}
+.happy{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+.bestpet{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: -150px;
+}
+.bestpet h1{
+      font-size: 60px;
+}
+.booklearn{
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px 0 0 150px ;
+    gap: 5px;
+}
+.book{
+    background-color: rgb(242, 95, 58);
+    color: aliceblue;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5%;
+    border: none;
+}
+.book:hover{
+      background-color: rgba(242, 95, 58, 0.696);
+      color: #000;
+}
+.learn:hover{
+    background-color: rgba(14, 140, 77, 0.797);
+    color: aliceblue;
+}
+.learn{
+    background-color: rgb(42, 193, 118);
+    color: black;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5%;
+    border: none;
+}
+.buttons{
+    background-color:rgba(233, 82, 44, 0.674);
+     width: 30px;
+     height: 30px;
+     border-radius: 2px;
+     padding: 5px;
+     font-size: 20px;
+}
+.buttons:hover{
+    background-color:rgb(247, 80, 9);
+    color: #000;
+}
+/*end keep*/
+
+/*start responsive keep*/
+@media (max-width:950px) {
+     .happy{
+        gap: 100px;
+     }
+     .bestpet h1{
+        font-size: 50px;
+  }
+  .booklearn{
+    margin:20px 0 0 100px ;
+}
+}
+@media (max-width:750px) {
+    .happy{
+       gap: 50px;
+       margin-top: -50px;
+    }
+    .bestpet h1{
+       font-size: 40px;
+ }
+ .booklearn{
+   margin:20px 0 0 80px ;
+}
+}
+@media (max-width:610px) {
+    .happy{
+       gap: 30px;
+       font-size: 10px;
+    }
+    .bestpet h1{
+       font-size: 35px;
+ }
+    .buttons{
+        margin-top: -50px;
+    }
+    .booklearn{
+    margin:10px 0 0 80px ;
+    gap: 5px;
+}
+    .book{
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+}
+    .learn{
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+}   
+}
+/*end responcive keep*/
+/*end divs*/
+
+/*start going*/
+.going{
+    display: flex;
+    gap: 40px;
+    background-color: rgba(217, 218, 219, 0.484);
+    width: 100%;
+}
+/*start responcive gooing*/
+@media (max-width:950px) {
+    .going{
+        display: block;
+    }
+    .form{
+        margin-right:-150px;
+    }
+}
+/*end responcive gooing*/
+
+/*start form*/
+
+.form{
+    background-color: rgb(242, 95, 58);
+     width: 350px;
+     height: 400px;
+     margin-left: 150px;
+     padding:50px 30px;
+}
+form{
+    display: grid;
+    gap: 10px;
+}
+input{
+    width: 280px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+}
+input::placeholder{
+    color: #434141c1;
+    padding-left: 10px;
+}
+select{
+    width: 280px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    color: #434141c1;
+    padding-left: 10px;
+    padding-top:10px ;
+}
+.now{
+    background-color: #000;
+    color: white;
+}
+.now:hover{
+    background-color: #f5eeee;
+    color:rgb(255, 89, 0);
+}
+.select{
+    margin-right: 50px;  
+}
+/*end form*/
+
+/*start bookfor*/
+
+.bookfor{
+    margin-top: 30px;
+}
+.vacation{
+   color: rgba(5, 165, 5, 0.635);
+   text-align: justify;
+}
+.your-pet{
+   color: rgb(242, 95, 58);
+   padding-left: 10px;
+}
+pre{
+    color: #00000081;
+}
+.Boarding{
+    width: 40%;
+}
+.Boarding span{
+    display: flex;
+    margin-bottom: 5px;
+}
+.Boarding h5{
+    padding-left: 20px;
+    font-size: 20px;
+    color: #000000ab;
+}
+.pets{
+    display:flex ;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.pets i{
+    font-size: 30px;
+    color: rgba(5, 165, 5, 0.635);
+
+}
+.pets i:hover{
+    color: rgb(242, 95, 58);
+}
+/*end bookfor*/
+/*end going*/
+
+/*start about-us*/
+.about-us{
+    display: flex;
+    gap: 100px;
+    padding-top: 50px;
+}
+.daycare{
+    margin-left:150px;
+}
+.us{
+    color: rgba(5, 165, 5, 0.635);
+    margin-left: -330px;
+}
+.board{
+    color: rgb(242, 95, 58);
+}
+.care{
+    color: rgba(5, 165, 5, 0.635);
+
+}
+.check h5{
+    color: #000000b3;
+}
+.check h5:hover{
+    color: rgba(5, 165, 5, 0.635);
+}
+.check{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+.check i{
+    color: rgba(5, 165, 5, 0.635);
+}
+.check i:hover{
+    color: rgb(242, 95, 58);
+}
+.learn-more{
+    margin-top: 20px;
+    background-color: rgb(242, 95, 58);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+}
+.learn-more:hover{
+    background-color: black;
+    color: orange;
+}
+.about-image{
+    
+    flex-wrap: wrap;
+}
+.about-us .about-image .about-1{
+    width: 400px;
+    height: 200px;
+}
+.about-image .about-2 img{
+    width: 200px;
+}
+.about-image .about-2{
+   display: flex;
+}
+/*end about-us*/
+
+/*start responcive about-us*/
+@media (max-width:700px) {
+    .about-us{
+        display: block;
+    }
+    .form{
+        margin-left: 50px;
+    }
+}
+/*end responcive about-us*/
+
+/*start our-services*/
+.our-services{
+    background-color: rgba(217, 218, 219, 0.484);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px;
+}
+.our-services h4{
+    color: rgba(5, 165, 5, 0.635);
+}
+.our-services h1{
+    font-size: 40px;
+}
+.our-services h1 span{
+    color: rgb(242, 95, 58);
+}
+.our-services .Premium{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin:30px 0px 0px 100px;
+}
+.pet1{
+    background-color: white;
+    width: 30%;
+    height: 220px;
+    font-size: 10px;
+    padding-top: 30px;
+}
+.pet1 P{
+    color: rgb(242, 95, 58);
+}
+.pet1 i{
+    font-size: 30px;
+    color: rgba(5, 165, 5, 0.635);
+    padding-bottom: 10px;
+}
+.pet1 P:hover{
+    color: rgba(5, 165, 5, 0.635);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.pet1 i:hover{
+    color: rgb(242, 95, 58);
+}
+.pet span{
+    display: flex;
+}
+/*end our-services*/
+
+/*start responcive our-services*/
+@media (max-width:750px) {
+    .pet1{
+        width: 70%;
+    }
+}
+
+
+/*start why-choose-us*/
+.why-choose-us{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    padding: 20px 0px;
+    margin-left: 150px;
+}
+.why-choose-us img{
+    width: 200px;
+    height: 300px;
+    position: relative;
+}
+.basic{
+    width: 250px;
+    height: 157px;
+    position:absolute;
+    background-color: #00000079;
+    padding-top:40px;
+    color: #ffffff;
+}
+.basic h2{
+    color: rgba(90, 220, 90, 0.975);
+}
+.basic h3{
+    font-size: 20px;
+    color: rgb(213, 95, 66);
+}
+
+.basic span{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+sup{
+    margin-top: -30px;
+}
+.special h4{
+    color: rgba(5, 165, 5, 0.635);
+    text-align: justify;
+    margin-top: 30px;
+}
+.special h1{
+    font-size: 40px;
+}
+.special h1 span{
+    color: rgb(242, 95, 58);
+}
+.why-choose-us .industry{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+.industry div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.support h5{
+    margin-top: 10px;
+    color: #000000cc;
+}
+.support{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+.industry i{
+    color: rgba(5, 165, 5, 0.635);
+    font-size: 30px;
+    padding-right: 10px;
+}
+.industry i:hover{
+    color: rgb(242, 95, 58);
+}
+/*end why-choose-us*/
+
+/*start why-choose-us*/
+@media (max-width:730px) {
+   .why-choose-us{
+        display: block;
+   }
+}
+
+/*start pricing-plan*/
+.pricing-plan{
+    text-align: center;
+    background-color: rgba(217, 218, 219, 0.484);
+    width: 100%;
+    padding: 50px;
+}
+.pricing-plan h4{
+    color: rgba(5, 165, 5, 0.635);
+    padding-bottom: 20px;
+}
+.pricing-plan h1{
+      font-size: 40px;
+}
+.pricing-plan h1 span{
+    color: rgb(242, 95, 58);
+}
+.best-price{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+.price{
+    background-color: white;
+    width: 250px;
+}
+.price img{
+    width: 250px;
+}
+.feeding{
+    display: flex;
+    justify-content: center;
+    color: #00000079;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+.feeding div{
+    display:flex ;
+    gap: 10px;
+    padding-top: 10px;
+}
+.feeding i{
+    color: rgba(5, 165, 5, 0.635);
+}
+.feeding i:hover{
+    color: red;
+}
+.wrong i{
+    color: red;
+}
+.wrong i:hover{
+    color: rgba(5, 165, 5, 0.635);
+}
+.signup{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(242, 95, 58);
+    color:white;
+    border: none;
+}
+.signup-now{
+    width: 250px;
+    height: 30px;
+    border: none;
+    background-color: rgba(5, 165, 5, 0.635);
+    color: #000;
+}
+.signup-now:hover{
+    background-color: #000;
+    color:rgb(12, 208, 12);
+}
+.signup:hover{
+    background-color: #000;
+    color:orange;
+}
+/*end pricing-plan*/
+
+/*start team-member*/
+.team-member{
+    text-align: center;
+    margin: 50px;
+}
+.team-member h4{
+    color: rgba(5, 165, 5, 0.635);
+}
+.team-member h1 span{
+    color: rgb(242, 95, 58);
+}
+.team-member h1{
+    font-size: 40px;
+}
+.meet-our{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+.ross{
+    background-color: rgba(217, 218, 219, 0.484);
+    width: 200px;
+    border-radius: 2%;
+    color: #000000a9;
+    font-size: 13px;
+}
+.ross img{
+     width: 200px;
+}
+.meet-our .ross .ceo{
+   background-color: #000000;
+   width: 200px;
+   height: 50px;
+   border-radius: 2%;
+   position: absolute;
+   transform: rotateX(90deg);
+}
+.team-member .meet-our .ross:hover .ceo{
+    transform: rotateX(0deg);
+    transition:1s;
+    transform-origin: bottom center;
+
+}
+.meet-our .ross .ceo i{
+    color: rgb(230, 106, 75);
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid rgb(230, 106, 75);
+    border-radius: 50%;
+}
+.meet-our .ross .ceo i:hover{
+    background-color: rgb(230, 106, 75);
+    color: #000;
+}
+/*end tem-member*/
+
+/*start testimonial*/
+.testimonial{
+    background-color: rgba(217, 218, 219, 0.484);
+    text-align: center;
+    padding: 50px;
+}
+.testimonial h4{
+    color: rgba(5, 165, 5, 0.635);
+}
+.testimonial h1{
+    font-size: 40px;
+}
+.testimonial h1 span{
+    color: rgb(242, 95, 58);
+}
+.our-client{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 50px;
+}
+.says{
+    background-color: white;
+    width: 300px;
+    font-size: 13px;
+    color: #00000072;
+}
+.says img{
+    width: 50px;
+    height: 50px;
+}
+.says div{
+    display: flex;
+}
+.says span{
+    padding:10px;
+    text-align: justify;
+}
+.says h3{
+    color: #000000d3;
+    padding-bottom: 5px;
+}
+.says pre{
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 10px;
+    margin-top: 50px;
+}
+.circle i{
+    background-color: rgba(217, 218, 219, 0.484);
+    color:  rgba(217, 218, 219, 0.484);
+    border-radius: 50%;
+}
+
+.circle i:hover{
+    background-color:rgba(5, 165, 5, 0.635);
+    color: rgba(5, 165, 5, 0.635);
+    border-radius: 50%;
+}
+#fa-circle{
+   background-color: rgb(242, 95, 58);
+   color: rgb(242, 95, 58);
+}
+#fa-circle:hover{
+    background-color:rgba(5, 165, 5, 0.635);
+    color: rgba(5, 165, 5, 0.635);
+    border-radius: 50%;
+}
+/*end testimonial*/
+
+/*start pet-blog*/
+.pet-blog{
+    text-align: center;
+    padding: 50px;
+}
+.pet-blog h4{
+    color: rgba(5, 165, 5, 0.635);
+    
+}
+.pet-blog h1{
+   font-size: 40px;
+}
+.pet-blog h1 span{
+   color: rgb(242, 95, 58);
+}
+.from-blog{
+   display: flex;
+   flex-wrap: wrap;  
+   justify-content: center;
+   gap: 20px;
+}
+.blog{
+    background-color: rgba(217, 218, 219, 0.484);
+    width:300px;
+    margin-top: 50px;
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 20px;
+    color: #000000e0;
+}
+.blog img{
+    width: 300px;
+    margin:0px 0px 10px -20px;
+} 
+.blog .more{
+   color: rgb(242, 95, 58);
+}
+.blog .more:hover{
+    color: rgba(5, 165, 5, 0.635);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.diam{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+    font-size: 5px;
+    color: #0000009a;
+}
+.diam div{
+    display: flex;
+}
+.diam i:hover{
+    color: rgb(242, 95, 58);
+}
+/*end pet-blog*/
+
+/*start final*/
+.final{
+    background-color: #0b0a0aed;
+    width:100%;
+    color: #dddbdb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin: 50px 0px 0px 0px;
+    padding: 50px;
+    font-size: 10px;
+}
+.p-lover{
+    text-align: justify;
+}
+.p-lover pre{
+    color: #ffff;
+}
+.p-lover h1 .span1{
+    color: rgb(242, 95, 58);
+}
+.final{
+    text-align: justify;
+}
+.final h2{
+    color: rgb(242, 95, 58);
+}
+.final ul li{
+    display: flex;
+    gap: 5px;  
+}
+.get-in-touch .media{
+    display: flex;
+    gap: 10px;
+}
+.get-in-touch .media i{
+    font-size: 10px;
+    border: 1px solid white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 7px;
+}
+.final i:hover{
+    color: rgb(242, 95, 58);
+    font-weight: bolder;
+}
+.get-in-touch .media i:hover{
+    background-color: rgb(242, 95, 58);
+    color: #000;
+    font-weight: bolder;
+}
+.popular-links a{
+    text-decoration: none;
+    color: #ffff;
+}
+.newsletter form input{
+    width: 150px;
+    height: 20px;
+}
+.newsletter form input[type=button]{
+    background-color: rgb(242, 95, 58); 
+}
+.newsletter form input[type=button]:hover{
+    background-color: #ffff;
+    color: rgb(242, 95, 58); 
+}
+/*end final*/
+
+/*start header*/
+.header{
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    color: #ffffff;
+}
+.header h5{
+    padding: 15px 0px 0px 10px;
+}
+.header h5 span:hover{
+    color: rgb(233, 108, 77); 
+    font-weight:bolder;
+}
+.header .nav li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.header .nav ul{
+    display: flex;
+    gap: 10px;
+    margin: -10px 0px 0px 400px;
+}
+.header .nav li:hover{
+    color: rgb(233, 108, 77); 
+    font-weight: bolder;
+}
+
+/*end header*/
+
+/*stat responcive header*/
+@media (max-width:1020px) {
+    .header .nav ul{
+        margin-left: 200px;
+    }
+}
+@media (max-width:750px) {
+    .header{
+        display: block;
+    }
+    .header .nav ul{
+        margin-left: 0px;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+/*end responcive header*/
+
+
